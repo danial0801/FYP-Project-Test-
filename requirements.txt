@@ -2,3 +2,6 @@ tensorflow==2.10.0
 pandas==1.2.4
 numpy>=1.18.1,<2.0.0
 scikit-learn==0.24.2
+protobuf==3.9.2
+urllib3==1.26.7
+
