@@ -124,7 +124,7 @@ if (selected == 'Paddy Disease'):
             st.image(Image.open(image_url))
         
         if selected_option == 'bacterial_leaf_blight': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Bacterial Leaf Streak\100084.jpg"
+            image_url = "100133.jpg"
             st.image(Image.open(image_url))
             st.write('**Bacterial leaf Blight**')
             st.write(" Bacterial leaf blight is caused by infections by pathogens named Xanthomonas oryzae PV. \
@@ -136,7 +136,7 @@ if (selected == 'Paddy Disease'):
                     temperatures between 25 and 34 °C, with a relative humidity of at least 70%")
                             
         if selected_option == 'bacterial_leaf_streak': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Bacterial Leaf Streak\100150.jpg"
+            image_url = "100150.jpg"
             st.image(Image.open(image_url))
             st.write('**Bacterial leaf Streak**')
             st.write(" Bacterial leaf streak disease is mainly attributed to infections by Xanthomonas \
@@ -152,7 +152,7 @@ if (selected == 'Paddy Disease'):
                     canal or if it is on the leaf of the plant itself")
         
         if selected_option == 'bacterial_panicle_blight': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Bacterial Panicle Blight\100071.jpg"
+            image_url = "100071.jpg"
             st.image(Image.open(image_url))
             st.write('**Bacterial Panicle Blight**')
             st.write(" Bacterial Panicle blight is caused by a type of bacterium called Burkholderia glumae. \
@@ -164,7 +164,7 @@ if (selected == 'Paddy Disease'):
                     temperatures between 25 and 34 °C, with a relative humidity of at least 70%")       
 
         if selected_option == 'blast': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Blast\100004.jpg"
+            image_url = "100004.jpg"
             st.image(Image.open(image_url))
             st.write('**Bacterial Panicle Blight**')
             st.write(" Rice blast infections are attributable to infection from the fungus Magnaporthe \
@@ -183,7 +183,7 @@ if (selected == 'Paddy Disease'):
                     loss due to the blast disease epidemic could get as high as 60% to 65% of product yield.")
 
         if selected_option == 'brown_spot': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Brown Spot\100022.jpg"
+            image_url = "100022.jpg"
             st.image(Image.open(image_url))
             st.write('**Brown Spot**')
             st.write(" Brown spots in paddy plantations are one of the most common types of disease \
@@ -200,7 +200,7 @@ if (selected == 'Paddy Disease'):
                     
 
         if selected_option == 'dead_heart': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Dead Heart\100036.jpg"
+            image_url = "100036.jpg"
             st.image(Image.open(image_url))
             st.write('**Dead Heart**')
             st.write(" Dead hearts are a significant product of an attack by a type of pest labelled as \
@@ -216,7 +216,7 @@ if (selected == 'Paddy Disease'):
                     large panicle but empty grains.")
                     
         if selected_option == 'downy_mildew': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Downey Mildew\100017.jpg"
+            image_url = "100017.jpg"
             st.image(Image.open(image_url))
             st.write('**Downy Mildew**')
             st.write(" Downy Mildew is a kind of plant disease that affects crops yield quantity and \
@@ -232,7 +232,7 @@ if (selected == 'Paddy Disease'):
                     would also be smaller than usual with it being green for longer than normal .")
 
         if selected_option == 'hispa': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Hispa\100187.jpg"
+            image_url = "100187.jpg"
             st.image(Image.open(image_url))
             st.write('**Hispa**')
             st.write(" Instead of pathogens, bacterium, or fungi, the Hispa disease is caused by \
@@ -249,7 +249,7 @@ if (selected == 'Paddy Disease'):
                     average but could potentially reach up to 52% in deep water rice.")
                     
         if selected_option == 'tungro': 
-            image_url = r"C:\Final Year Project\Dataset\Excluded Dataset (Predictions)\Tungro\100060.jpg"
+            image_url = "100060.jpg"
             st.image(Image.open(image_url))
             st.write('**Tungro**')
             st.write(" Tungro is a type of disease that affects infected paddy plants in that they would \
