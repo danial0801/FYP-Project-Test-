@@ -120,7 +120,7 @@ if (selected == 'Paddy Disease'):
 
     with col2: 
         if selected_option == 'Choose a disease': 
-            image_url = r"C:\Users\Asus\Downloads\de-an-sun-ih7n_6wsEIg-unsplash(1).jpg"
+            image_url = "de-an-sun-ih7n_6wsEIg-unsplash(1).jpg"
             st.image(Image.open(image_url))
         
         if selected_option == 'bacterial_leaf_blight': 
