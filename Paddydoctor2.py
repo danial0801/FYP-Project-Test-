@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 
 
 # Load the pre-trained model
-model = tf.keras.models.load_model(r"C:\Final Year Project\Saved Models\Models Split(8.1.1)\MobileNet\MobileNet Model_best.h5")
+model = tf.keras.models.load_model("MobileNet Model_best.h5")
 
 # Define the class labels
 class_labels = ['bacterial_leaf_blight', 'bacterial_leaf_streak', 
